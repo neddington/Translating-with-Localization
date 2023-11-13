@@ -11,6 +11,7 @@
 		2CFBE7452AF9CBE800C48436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFBE7442AF9CBE800C48436 /* ContentView.swift */; };
 		2CFBE7472AF9CBE900C48436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFBE7462AF9CBE900C48436 /* Assets.xcassets */; };
 		2CFBE74A2AF9CBE900C48436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFBE7492AF9CBE900C48436 /* Preview Assets.xcassets */; };
+		2CFBE75E2AF9CFF000C48436 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CFBE7602AF9CFF000C48436 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		2CFBE7442AF9CBE800C48436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CFBE7462AF9CBE900C48436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFBE7492AF9CBE900C48436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CFBE75F2AF9CFF000C48436 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2CFBE7612AF9CFF400C48436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		2CFBE7362AF9CBE800C48436 = {
 			isa = PBXGroup;
 			children = (
+				2CFBE7602AF9CFF000C48436 /* Localizable.strings */,
 				2CFBE7412AF9CBE800C48436 /* Translating with Localization */,
 				2CFBE7402AF9CBE800C48436 /* Products */,
 			);
@@ -108,6 +112,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
+				"es-419",
 				Base,
 			);
 			mainGroup = 2CFBE7362AF9CBE800C48436;
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFBE74A2AF9CBE900C48436 /* Preview Assets.xcassets in Resources */,
+				2CFBE75E2AF9CFF000C48436 /* Localizable.strings in Resources */,
 				2CFBE7472AF9CBE900C48436 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CFBE7602AF9CFF000C48436 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFBE75F2AF9CFF000C48436 /* es */,
+				2CFBE7612AF9CFF400C48436 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2CFBE74B2AF9CBE900C48436 /* Debug */ = {

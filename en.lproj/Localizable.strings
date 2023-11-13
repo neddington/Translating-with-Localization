@@ -5,3 +5,8 @@
   Created by Eddington, Nick on 11/6/23.
   
 */
+
+"greeting-label %@" = "Hello, %@";
+"%lld button-label" = "%lld Tap me";
+"placeholder-label" = "Type here";
+"pi-label %lf" = "Value of pi = %lf";
